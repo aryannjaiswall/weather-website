@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo:regular,italic,700,700italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:regular,italic,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Kameron:regular,700" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <img src="./img/Logo.png" alt="">
+        <h1>Weather App</h1>
+    </header>
+    <section class="city" id="cityId">
+        <input type="text" placeholder="Enter your City" class="cityBeforeClick" id="inp">
+        <button id="btn">Check Weather</button>
+    </section>
+    <section class="container-section">
+        <div class="container" id="containerToChange1"> </div>
+        <div class="container" id="containerToChange2"> </div>
+        <div class="container" id="containerToChange3"> </div>
+    </section>
+    <div class="button-div" id="button-div">
+        <button class="btn" id="btn2">
+            See for next 3 days
+        </button>
+    </div>
+    <section class="container-section hide" id="container-btn">
+
+        <div class="container" id="containerToChange4"> </div>
+
+        <div class="container" id="containerToChange5"> </div>
+
+        <div class="container" id="containerToChange6"> </div>
+    </section>
+    <footer>
+        &#169 Copyright All Right Reseved 2021-2022
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
