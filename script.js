@@ -86,7 +86,9 @@ function fetchAndDisplay(i){
                                                     ${data1.data[i].datetime}
                                                 </div>
                                                 <div class="container-2">
+                                                    <div class="brand-logo">
                                                     <img src=${src} alt="">
+                                                    </div>
                                                     <p>${data1.data[i].weather.description}</p>
                                                 </div>
                                                 <div class="container-2-max-min" >

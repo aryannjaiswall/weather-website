@@ -21,6 +21,21 @@ header h1{
     color: #FDF8F5;
 }
 
+.brand-logo {
+    height: 125px;
+    width: 125px;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+    border-radius: 50%;
+    margin-right: 22px;
+}
+
+.brand-logo img {
+    height: 95px;
+    width: 95px;
+    margin: 17px;
+}
+
 /* City Section and Input */
 
 .city{
@@ -97,7 +112,7 @@ header h1{
 /* Container */
 
 .container{
-    height: 40vh;
+    height: 45vh;
     width: 40vh;
     background: #ecf0f3;
     padding: 40px;
@@ -147,6 +162,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-top: 12px;
 }
 
 .container-2 p{
