@@ -86,7 +86,7 @@ header h1{
 	text-decoration: none;
 	background: #ffffff;
 	padding: 10px;
-	border: 2px solid #4DA8DA !important;
+	border: 2px solid #E8CEBF !important;
     border-radius: 12px;
 	display: inline-block;
 	transition: all 0.4s ease 0s;
@@ -98,8 +98,8 @@ header h1{
     cursor: pointer;
     color: #ffffff !important;
 	background: #f6b93b;
-	border-color: #4DA8DA !important;
-	transition: all 0.4s ease 0s;
+	border-color: #E8CEBF !important;
+	transition: all 0.5s ease-in 0s;
 }
 
 .button-div{
@@ -134,9 +134,12 @@ footer{
     background: black;
     color: white;
     height: 8vh;
+}
+
+footer p{
     font-family: "Roboto";
     font-size: 1.3em;
-}
+   }
 
 /* Button */
 
